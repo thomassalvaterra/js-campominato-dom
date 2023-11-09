@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* ELEMENTI PRINCIPALI PAGINA */
+
+header{
+    height: 80px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+main{
+    background-color: #222;
+    color: white;
+    height: 750px;
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    height: 80px;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;    
+}
+
+/* CONTENUTI CHE GIUSTIFICANO LA PAGINA */
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 700px;
+    width: 700px;
+}
+
+.square{
+    border: 1px solid;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+.cliccata{
+    background-color: cyan;
+}
+
+#btnPlay{
+    width: 100px;
+}
+
+#livelli{
+    width: 100px;
+}
+
+.mina {
+    background: red;
+}
